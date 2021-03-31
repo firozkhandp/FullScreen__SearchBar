@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link
+	rel="stylesheet"
+	href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+	<link
+	rel="stylesheet"
+	href="style.css"/>
+	<script src="main.js"></script>
+	
+</head>
+<body>
+	<div id="myOverlay" class="overlay">
+	<span class="closebtn"
+			onclick="closeSearch()"
+			title="Close Overlay">
+			×
+	</span>
+	<div class="overlay-content">
+		<form action="/action_page.php">
+		<input type="text"
+				placeholder="Search.."
+				name="search" />
+		<button type="submit">
+			<i class="fa fa-search"></i>
+		</button>
+		</form>
+	</div>
+	</div>
+
+<div 
+style="margin-left: 40%; margin-top: 10%; border: 2px solid gray; width: 300px; padding-bottom: 80px; padding-top: 50px; padding-left: 30px;
+        background: whitesmoke; border-radius: 20px; box-shadow: 5px 5px 500px blue;">
+    
+	<h2>
+	Full Screen Search Bar
+	</h2>
+	<button  class="openBtn"
+			onclick="openSearch()">
+			Open Search Box
+	</button>
+</div>
+</body>
+</html>
